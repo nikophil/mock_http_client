@@ -1,0 +1,2 @@
+"https://{default}/": { type: upstream, upstream: "mock-http-client:http" }
+"http://{default}/": { type: redirect, to: "https://{default}/" }
